@@ -1,0 +1,58 @@
+body {
+    background-color: #f8cb74;
+}
+
+h1 {
+    font-family: robotoBold;
+}
+
+p {
+    font-family: robotoRegular;
+}
+
+.social-logo {
+    fill: #fff;
+}
+
+.social-logo:hover {
+    fill: #f8cb74;
+}
+
+.content {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.content-card {
+    background-color: #333;
+    padding: 2rem;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: robotoBold;
+}
+
+@font-face {
+    font-family: robotoRegular;
+    src: url(./static/RobotoMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: robotoBold;
+    src: url(./static/RobotoMono-Bold.ttf);
+}
