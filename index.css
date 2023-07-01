@@ -1,4 +1,4 @@
-body {
+html, body {
     background-color: #f8cb74;
 }
 
@@ -35,9 +35,28 @@ p {
     justify-content: center;
 }
 
+.description p {
+    margin-top: 0;
+}
+
 .links {
     display: flex;
     justify-content: center;
+}
+
+.social-logos {
+    display: flex;
+    justify-content: center;
+}
+
+.social-logo {
+    fill: #fff;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.social-logo:hover {
+    fill: #f8cb74;
 }
 
 .title {
@@ -45,6 +64,14 @@ p {
     justify-content: center;
     align-items: center;
     font-family: robotoBold;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 @font-face {
