@@ -10,14 +10,6 @@ p {
     font-family: robotoRegular;
 }
 
-.social-logo {
-    fill: #fff;
-}
-
-.social-logo:hover {
-    fill: #f8cb74;
-}
-
 .content {
     margin-top: 10rem;
     display: flex;
@@ -37,11 +29,6 @@ p {
 
 .description p {
     margin-top: 0;
-}
-
-.links {
-    display: flex;
-    justify-content: center;
 }
 
 .social-logos {
@@ -74,12 +61,20 @@ p {
     text-align: center;
 }
 
+@media (max-width: 600px) {
+    .content {
+        margin-top: 4rem;
+    }
+}
+
 @font-face {
     font-family: robotoRegular;
     src: url(./static/RobotoMono-Regular.ttf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: robotoBold;
     src: url(./static/RobotoMono-Bold.ttf);
+    font-display: swap;
 }
